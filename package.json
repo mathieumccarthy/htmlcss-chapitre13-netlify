@@ -1,15 +1,23 @@
-
 {
-    "liveServer.settings.port": 5502
-    }
-
-{
-    "name":{
-        "name": "sexe-chats",
-        "description": "description",
-        "authors": "author",
-        "version": "1.0.0",
-        "main": "index.js",
-        "dependencies": {}
-    }
+  "name": "sexe-chats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieumccarthy/htmlcss-chapitre13-netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathieumccarthy/htmlcss-chapitre13-netlify/issues"
+  },
+  "homepage": "https://github.com/mathieumccarthy/htmlcss-chapitre13-netlify#readme",
+  "dependencies": {
+    "sass": "^1.54.5"
+  }
 }
