@@ -1,0 +1,506 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+  }
+  
+  html,
+  body {
+    font-family: 'Inspiration', cursive; 
+    color: #f2f20b;
+   
+     box-shadow: 20px 10px 88px white;  
+  }
+  html,body{
+     font-family: 'Inspiration', cursive; 
+  box-shadow: 20px 10px 44px white;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin-bottom: 50px;
+   
+  }
+
+  ul{
+    box-shadow: 22px 10px 44px white;
+    text-decoration: none;
+    list-style: block;
+  }
+  
+  a {
+    color: #222;
+    text-decoration: none;
+  }
+  
+  p {
+    margin-bottom: 1px;
+  }
+  
+  .my-10 {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+  
+  .my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .underline {
+    padding-bottom: 10px;
+    border-bottom: 10px solid rgb(246, 241, 241);
+  }
+  
+  .chip {
+    display: inline-block;
+    text-align: left;
+    width: 30px;
+    border-radius: 100%;
+    background: rgb(241, 239, 239);
+    color: rgb(239, 239, 15);
+    border-color: rgb(16, 15, 15);
+    box-shadow: 50px 10px 40px 20px rgb(252, 250, 250);
+  }
+
+
+
+
+
+
+  
+  .chip-purple {
+    background: #f5ed01;
+   
+  }
+  
+  .chip-brown {
+    background: #f3f702;
+   
+  }
+  
+  .separator {
+    margin: 20px auto;
+    height: 20px;
+    width: 100px;
+    background: #111;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 25px;  
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background: rgb(246, 226, 4);
+    color: #222;
+    
+  }
+  
+  .btn-primary:hover {
+    background: #222;
+    color: rgb(249, 225, 7);
+   
+  }
+  
+  .btn-dark {
+    background: #222;
+    color: rgb(230, 230, 27);
+    border-style: groove;
+    border-radius: 5px;
+  }
+  
+  .btn-dark:hover {
+    background: rgb(29, 28, 25);
+    color: #222;
+    border: 1px solid #222;
+    
+  }
+  
+  .container {
+    max-width: 1000px;
+    display: auto;
+    margin: auto;
+    
+    
+  }
+
+ 
+
+
+  
+  /* Header */
+  
+  .header {
+    background: rgb(110, 110, 37);
+    overflow: auto;
+    line-height: auto;
+    display: block;
+    grid-template-columns: 1fr auto;
+    place-items: center start;
+    line-height: 6rem;
+    margin: rem auto;
+    color: #1e1c1c;
+    
+    
+  }
+  
+  .header nav h1 {
+    float: left;
+    padding: 18px;
+    margin-bottom: 10px;
+    
+  }
+
+  .header nav h1 i{
+    font-size: 14rem;
+    box-shadow: 200px 400px 600px 800px  rgba(225, 212, 27, 0.317);
+    border-radius: 10rem;
+  }
+  
+  .header nav h1 a {
+    color: rgb(250, 245, 245);
+    font-size: 10.3rem;
+    margin-right: 7.5rem;
+    font-family: 'Inspiration', cursive; 
+      text-shadow: 15px 20px rgb(0, 0, 0);  
+     text-decoration: none;
+  }
+  
+  .header nav ul {
+    float: left;
+    list-style: none;
+    border-radius: 0rem;
+    /* text-shadow: 7px 10px #111; */
+   
+  }
+  
+  .header nav ul li {
+    float: left;
+    font-size: 30px;
+    /* text-shadow: 20px 30px 20px 30px white;  */
+    display: auto;
+    text-decoration: none;
+    
+    
+  }
+  
+  .header nav ul li a {
+    color: rgb(14, 14, 14);
+    padding: 12px;
+    
+    font-display: left;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: rgb(239, 234, 234);
+    text-decoration: none;
+    
+   
+  }
+  
+  .header nav ul li a:hover,
+  .active {
+    background: rgba(97, 97, 96, 0.204);
+   
+    /* text-shadow: 10px 15px#ababa7;  */
+    
+    
+    
+  }
+
+  
+  /* value proposition */
+
+
+
+  .vp {
+    min-height: 700px;
+    background: url(../images/sex9.jpg)
+      center center;
+    background-size: cover;
+    text-align: center ;
+    border-style: groove;
+    border-color: black;
+    border-color: rgb(239, 239, 9);
+    box-shadow: 100px 50px 100px 200px rgba(125, 116, 35, 0.695);
+    ;
+    border-radius: 0px;
+      font-family: 'Inspiration', cursive;   
+    text-shadow: rgb(28, 27, 27) 1px 4px;
+    
+  }
+  
+  .vp-content {
+    max-width: 600px;
+    padding: 4rem;
+    padding-top: 150px;
+    color: rgb(238, 208, 16);
+    display: block;
+    margin: auto;
+
+  
+  
+    
+  }
+  
+  .vp-content h1 {
+    font-size: 12rem;
+    letter-spacing: 7.9px;
+    line-height: 1.0em;
+   
+    text-overflow: rgb(16, 16, 16);
+  
+    
+  }
+
+  
+  .vp-content p {
+    font-size: 33px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+    
+   
+    
+   
+  }
+  
+  /* features */
+.features {
+    overflow: auto;
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+    box-shadow: 400px 100px 300px 400px rgba(39, 38, 38, 0.773);
+     text-shadow:1px 4px rgb(255, 255, 255); 
+    font-size: 3rem;
+  }
+ 
+  
+  .feature {
+    float: left;
+    width: 50%;
+    
+  }
+ 
+  /* person */
+  
+  .person {
+    height: 500px;
+    background: url(../images/sex10.jpg)
+      center center/cover;
+      border-style: groove;
+      font-size: 50px;
+      border-color: rgb(245, 241, 241);
+      border-radius: 1px;
+      box-shadow: 100px 500px 400px 900px rgba(153, 139, 32, 0.517);
+      box-shadow: TOP 40PX;
+      
+      border-style: groove;
+      border-radius: 10px;
+  }
+  
+  /* reservation */
+  
+  .reservation {
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(132, 132, 11);
+    box-shadow: 100px 100px 80px 60px rgba(237, 236, 234, 0.783);
+    
+    
+  }
+  
+  /* footer */
+  
+  footer {
+    background: #222;
+    color: rgb(232, 232, 16);
+   
+    padding: 30px 50px 50px 15px;
+    text-align: center;
+    background: url(../images/sex5.jpg) center center/cover;
+    border-style: groove;
+    border-color: rgb(237, 230, 230);
+    font-size: 12rem;
+    border-radius: 0px;
+    box-shadow: 15px 10px 40px 20px rgb(246, 244, 244);
+    border-style: groove;
+    border-radius: 20px;
+}
+    
+  footer p {
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    
+    border-style: groove;
+    border-radius: 5px;
+  }
+  
+  /* where */
+  
+  .salle-#-1 {
+    padding: 180px 0px 100px 0px;
+    overflow: auto;
+    min-height: 100vh;
+    box-shadow: 50px 10px 40px 20px rgb(250, 249, 249);
+    border-style: groove;
+    border-radius: 5px;
+    
+  }
+  
+  .salle_1_HÉTERO-img {
+    border-color: rgb(23, 23, 20);
+   
+    float: left;
+    width: 45%;
+    border: 1px solid rgb(245, 245, 237);
+    background-image: url(../images/sex.jpg);
+    border-radius: 5px;
+    border-style: groove;
+    border-radius: 5px;
+  
+  }
+  
+  .salle_1_HÉTERO-text {
+    float: right;
+    width: 50%;
+    box-shadow: 50px 10px 40px 20px rgb(236, 236, 230);
+    border-style: groove;
+    border-radius: 5px;
+    
+  }
+  .salle-1 {
+    padding: 180px 0px 180px 0px;
+   
+    border-style: groove;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background:  url(../images/sex.jpg)center center; 
+    border-radius: 20px;
+  }
+  .salle_02_GAY {
+    padding: 180px 0px 180px 0px;
+    min-height: 100vh;
+    box-shadow: 50px 10px 40px 20px rgb(11, 11, 11);
+    border-style: groove;
+    border-radius: 5px;
+    
+  }
+  /* contact */
+  
+
+  .contact-form-container {
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 50px 10px 40px 20px rgb(23, 22, 22);
+    border-style: groove;
+    border-radius: 5px;
+   
+  }
+  
+  .contact-form-container form label {
+    display: block;
+    font-weight: 700;
+    box-shadow: 50px 10px 40px 20px rgb(10, 9, 9);
+    border-style: groove;
+    border-radius: 20px;
+  }
+
+
+  
+  
+  .contact-form-container form input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: 10px solid rgb(18, 18, 18);
+    border-radius: 3px;
+    border-style: groove;
+    box-shadow: 10px 15px 10px 12px rgb(61, 60, 60);
+    border-radius: 20px;
+    font-size: 150px;
+  }
+  
+  .contact-form-container form textarea {
+    min-height: 20px;
+    border-style: groove;
+    border-radius: 20px;
+    color: rgb(14, 15, 15);
+  }
+  
+  
+
+
+
+
+  
+
+
+
+
+.contact {
+  padding: 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contact-form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form input {
+  background: rgb(60, 59, 59);
+  border: 50rem;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: rgb(18, 18, 18);
+  outline: 0;
+  margin-bottom: 50rem;
+}
+
+.contact-form button {
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 10rem;
+  border-radius: 30px;
+  background: #1f1e1c;
+  color: rgb(16, 15, 15);
+  font-weight: 700;
+  font-size: 2.3rem;
+  cursor: pointer;
+  box-sizing: 30px;
+  box-shadow: 100px 200px 300px 400px red;
+}
+
+.contact-form button:hover {
+  background: rgb(238, 13, 13);
+  font-size: 10rem;
+}
+ 
+.button,input,optgroup,select,textarea
+{
+  margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30rem;
+    margin-left: 30px;
+    size-adjust: auto;
+    block-size: auto;
+    
+
+}

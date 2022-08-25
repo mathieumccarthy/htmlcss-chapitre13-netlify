@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salles de chats libre pour Aduluts ;)</title>
+    <link href="https://fonts.googleapis.com/css2? family=Great+Vibes&display=swap » rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/9ba95a5a20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+     <link rel="stylesheet" media="only screen and (max-width:500px)" href=".css/style.mobile.css">
+</head>
+    <body>
+        <header class="header">
+        <nav> 
+            <h1>
+                <a href="./index.html">  - Salon - pour - Gay -<i class="fa-brands fa-rocketchat"></i> </a>
+            </h1>
+            <ul>
+                <li><a href="./index.html">Acceuil</a></li>
+                <li><a href="./salle_01.html"><i class="fa-solid fa-venus-mars"></i> salle #1</a></li>
+                <li><a class="active" href="./salle_02.html"><i class="fa-solid fa-mars-double"></i> salle #2</a></li>
+                <li><a href="./salle_03.html"><i class="fa-solid fa-venus-double"></i> salle #3 </a></li>
+               
+             </ul>
+             <h2><i class="fa-solid fa-mars-double"></i> OSÉE TOUJOURS PLUS NE SOYEZ PAS TIMIDES </h2>
+             <p>
+                 <!-- Un site de salle de Discussion libre par catégorie pour des rencontre bien Osée ,)  -->
+             </p>
+
+
+
+
+            </body>
+
+            </html>
+            <title>Vue</title>
+            
+            <!-- CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+                integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            </head>
+            
+            <body>
+            
+                <div class="container" id="chat">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default" style="height: 500px; overflow: auto" id="chat-content">
+                                <div class="panel-body">
+                                    <div v-for="m in messages">
+            
+                                        <div style="margin-bottom: 10px">
+                                            <span class="small" style="display: inline-block;">{{ m.tm }}</span>
+                                            <span v-bind:style="{ color: m.color }">{{ m.name }}</span>
+                                            <span v-html="m.msg"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <strong>Enter your message:</strong><br>
+                                    <input type="text" class="form-control" style="margin-bottom: 10px"
+                                        placeholder="Enter your message..." v-model="msg" v-on:keyup.enter="send">
+                                    <button class="btn btn-primary btn" v-on:click="send">
+                                        Send Message
+                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                    </button>
+                                    <button class="btn btn-danger btn" v-on:click="quit">
+                                        Quit
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+                <script>
+                    function getRandomColor() {
+                        const letters = '0123456789ABCDEF';
+                        let color = '#';
+                        for (var i = 0; i < 6; i++) {
+                            color += letters[Math.floor(Math.random() * 16)];
+                        }
+            
+                        return color;
+                    }
+            
+                    const initialMsg = `
+                    <h1>BIENVENUE!</h1>
+                  cette salle de discussion est pour les homme gay seulment entre homme salle de discussion libre <strang> GAY </strong>:
+                  <ul>
+                    <li>Topic #1 fantasme</li>
+                    <li>Topic #2 action ou verite</li>
+                    <li>Topic #3 histoire cochonne</li>
+                  </ul>
+                  <p> <b>toutes les salle son 24/24 </b></p>
+                `;
+            
+                    const app = new Vue({
+                        el: '#chat',
+                        data: {
+                            name: ' Mr_Tattoo_You',
+                            name: ' sandra',
+                            name: ' daddy-big beer 69',
+            
+            
+            
+                            msg: '',
+                            color: getRandomColor(),
+                            messages: [
+                                { name: '[System Bot]', msg: initialMsg, tm: (new Date()).toLocaleTimeString() },
+                            ],
+                            participants: [
+                                 { name: 'Mr_tattoo_you', class: 'label label-success' },
+                            ]
+                        },
+                        methods: {
+                            send() {
+                                if (this.msg.length > 0) {
+                                    this.messages.push({ name: this.name, msg: this.msg, tm: (new Date()).toLocaleTimeString(), color: this.color })
+                                    this.msg = '';
+                                    this.scrollBottom();
+                                }
+                            },
+                            quit() {
+                                if (confirm('Are you sure you want to quit?')) {
+                                    window.close();
+                                }
+                            },
+                            scrollBottom() {
+                                Vue.nextTick(function () {
+                                    var div = document.getElementById("chat-content");
+                                    div.scrollTop = div.scrollHeight;
+                                });
+                            }
+                        }
+                    });
+                </script>
+            
+
+            <h2>Osée | toujours - PLUS</h2>
+            <p>
+                <!-- Un site de chats libre par catégorie pour des rencontre bien Osée ,) -->
+            </p>
+            </div> 
+     </section>
+     <footer>
+              <p>Copyright &#9400;- rencontre - salle - de discussion - LIBRE - POUR - ADULT - H-F-G-T-L- 2022</p>
+            </footer>
+    
+
+    
+  <body>
+    <html>
