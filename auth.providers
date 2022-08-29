@@ -1,0 +1,8 @@
+auth:
+  providers: [local]
+  auth:
+  providers: [kerberos, local]
+  auth:
+  local:
+    enableRegistration: true
+    passwordRegex: ^.{8,64}$

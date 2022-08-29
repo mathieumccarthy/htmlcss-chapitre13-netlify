@@ -17,7 +17,7 @@
   .header nav ul li a {
     padding: 10px;
     text-align: center;
-    padding: 80px 20px 50px 20px;
+    padding: 88px 28px 58px 28px;
     overflow: auto;
     min-height: 100vh;
   }
@@ -66,6 +66,6 @@
        /* contact */
 
        .contact {
-        padding: 50px 0px 50px 0px;
+        padding: 0px 0px 0px 0px;
         min-height: 100vh;
-      }
+     

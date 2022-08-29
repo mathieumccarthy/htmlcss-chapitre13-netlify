@@ -1,0 +1,4 @@
+auth:
+  throttling:
+    enable: true
+    threshold: 3
